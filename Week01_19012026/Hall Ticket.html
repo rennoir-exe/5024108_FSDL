@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hall Ticket</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .container { width: 600px; margin: auto; border: 3px solid #000; padding: 20px; }
+        .header { text-align: center; border-bottom: 2px solid #000; padding-bottom: 15px; }
+        .header h1 { margin: 0; color: #333; }
+        .header p { margin: 5px 0; }
+        .content { margin-top: 20px; }
+        .info-row { display: flex; justify-content: space-between; margin: 15px 0; border-bottom: 1px solid #ccc; padding: 10px 0; }
+        .label { font-weight: bold; width: 40%; }
+        .value { width: 60%; }
+        .student-photo { text-align: center; margin: 20px 0; }
+    
+        .instructions { background-color: #f9f9f9; border: 1px solid #ddd; padding: 15px; margin-top: 20px; }
+        .instructions h3 { margin-top: 0; }
+        .instructions ul { margin: 10px 0; padding-left: 20px; }
+        .footer { text-align: center; margin-top: 20px; font-size: 12px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        table th, table td { border: 1px solid #000; padding: 10px; text-align: left; }
+        table th { background-color: #e0e0e0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>EXAMINATION HALL TICKET</h1>
+            <p><b>Academic Year 2025-2026</b></p>
+            <p>Semester: III</p>
+        </div>
+        
+        <!-- Student Information -->
+        <div class="content">
+            <h2 style="text-align: center; text-decoration: underline;">Student Information</h2>
+            
+            <div class="info-row">
+                <div class="label">Roll Number:</div>
+                <div class="value">63108</div>
+            </div>
+            
+            <div class="info-row">
+                <div class="label">Student Name:</div>
+                <div class="value">Jastin Dcosta</div>
+            </div>
+            
+            <div class="info-row">
+                <div class="label">Father's Name:</div>
+                <div class="value">David Dcosta</div>
+            </div>
+            
+            <div class="info-row">
+                <div class="label">Mother's Name:</div>
+                <div class="value">Sarah Dcosta</div>
+            </div>
+            
+            <div class="info-row">
+                <div class="label">Date of Birth:</div>
+                <div class="value">07-06-2006</div>
+            </div>
+            
+            <div class="info-row">
+                <div class="label">Gender:</div>
+                <div class="value">Male</div>
+            </div>
+            
+            <div class="info-row">
+                <div class="label">Course:</div>
+                <div class="value">Bachelor of Information Technology</div>
+            </div>
+            
+            <div class="info-row">
+                <div class="label">Branch:</div>
+                <div class="value">Information Technology</div>
+            </div>
+            
+
+        
+        <!-- Exam Schedule -->
+        <div class="content">
+            <h2 style="text-align: center; text-decoration: underline;">Examination Schedule</h2>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Subject Code</th>
+                        <th>Subject Name</th>
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>Room No.</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>IT101</td>
+                        <td>Full Stack Development</td>
+                        <td>20-02-2026</td>
+                        <td>10:00 AM - 1:00 PM</td>
+                        <td>A-205</td>
+                    </tr>
+                    <tr>
+                        <td>IT102</td>
+                        <td>Software Engineering</td>
+                        <td>22-02-2026</td>
+                        <td>2:00 PM - 5:00 PM</td>
+                        <td>B-301</td>
+                    </tr>
+                    <tr>
+                        <td>IT103</td>
+                        <td>Mathematics IV</td>
+                        <td>24-0122026</td>
+                        <td>10:00 AM - 1:00 PM</td>
+                        <td>A-205</td>
+                    </tr>
+                    <tr>
+                        <td>CS104</td>
+                        <td>Operating Systems</td>
+                        <td>26-01-2026</td>
+                        <td>2:00 PM - 5:00 PM</td>
+                        <td>C-102</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <!-- Instructions -->
+        <div class="instructions">
+            <h3>Important Instructions:</h3>
+            <ul>
+                <li>Report to your assigned exam center <b>15 minutes before</b> the examination.</li>
+                <li>Bring this hall ticket and valid ID proof to the examination center.</li>
+                <li>Mobile phones and electronic devices are <b>strictly prohibited</b>.</li>
+                <li>Use only blue or black pen for writing.</li>
+                <li>Maintain silence and discipline during the examination.</li>
+                <li>Any malpractice will lead to cancellation of results.</li>
+            </ul>
+        </div>
+        
+        <!-- Footer -->
+        <div class="footer">
+            <p>Controller of Examinations | University Seal</p>
+            <p style="margin-top: 10px;"><small>This is a computer generated hall ticket. No signature required.</small></p>
+        </div>
+    </div>
+</body>
+</html>
