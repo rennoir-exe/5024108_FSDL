@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calendar 2026</title>
+    <style>
+        table { border-collapse: collapse; margin: 20px; }
+        th, td { border: 1px solid black; padding: 10px; text-align: center; }
+        th { background-color: #4CAF50; color: white; }
+        .weekend { background-color: #f0f0f0; }
+        .header { text-align: center; font-size: 24px; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1 align="center"><u>Calendar Year 2026</u></h1>
+    
+    <div align="center">
+        <h2><b>Select Month:</b></h2>
+        <form>
+            <select name="months">
+                <option value="january">January</option>
+                <option value="february">February</option>
+                <option value="march">March</option>
+                <option value="april">April</option>
+                <option value="may">May</option>
+                <option value="june">June</option>
+                <option value="july">July</option>
+                <option value="august">August</option>
+                <option value="september">September</option>
+                <option value="october">October</option>
+                <option value="november">November</option>
+                <option value="december">December</option>
+            </select>
+            <input type="submit" value="View Calendar">
+        </form>
+    </div>
+    
+    <hr>
+    
+    <h2 align="center"><mark>January 2026</mark></h2>
+    <table border="2" align="center">
+        <thead>
+            <tr>
+                <th>Sunday</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="weekend">28</td>
+                <td>29</td>
+                <td>30</td>
+                <td>31</td>
+                <td>1</td>
+                <td>2</td>
+                <td class="weekend">3</td>
+            </tr>
+            <tr>
+                <td class="weekend"><b>4</b></td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td class="weekend"><i>10</i></td>
+            </tr>
+            <tr>
+                <td class="weekend">11</td>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+                <td class="weekend">17</td>
+            </tr>
+            <tr>
+                <td class="weekend">18</td>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+                <td class="weekend"><u>24</u></td>
+            </tr>
+            <tr>
+                <td class="weekend">25</td>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+                <td>29</td>
+                <td>30</td>
+                <td class="weekend">31</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <hr>
+    
+    <h2 align="center"><mark>February 2026</mark></h2>
+    <table border="2" align="center">
+        <thead>
+            <tr>
+                <th>Sunday</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="weekend">1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td class="weekend"><b>7</b></td>
+            </tr>
+            <tr>
+                <td class="weekend">8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+                <td class="weekend">14</td>
+            </tr>
+            <tr>
+                <td class="weekend"><i>15</i></td>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+                <td class="weekend">21</td>
+            </tr>
+            <tr>
+                <td class="weekend">22</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+                <td class="weekend"><u>28</u></td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <hr>
+    
+    <h2 align="center">Add Events / Notes</h2>
+    <div align="center">
+        <form>
+            <label for="eventdate"><b>Date:</b></label>
+            <input type="date" id="eventdate" name="eventdate">
+            <br><br>
+            
+            <label for="eventname"><b>Event Name:</b></label>
+            <input type="text" id="eventname" name="eventname" placeholder="Enter event name">
+            <br><br>
+            
+            <label for="eventdesc"><b>Description:</b></label>
+            <textarea id="eventdesc" name="eventdesc" rows="3" cols="30" placeholder="Enter event description"></textarea>
+            <br><br>
+            
+            <label for="eventtime"><b>Time:</b></label>
+            <input type="time" id="eventtime" name="eventtime">
+            <br><br>
+            
+            <input type="submit" value="Add Event">
+            <input type="reset" value="Clear">
+        </form>
+    </div>
+    
+    <hr>
+    
+    <h2 align="center">Multimedia</h2>
+    <div align="center">
+        <h3><strong>Calendar Background Music</strong></h3>
+        <audio controls width="300">
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        
+        <h3><strong>Calendar Tutorial Video</strong></h3>
+        <video width="400" height="300" controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    
+    <hr>
+    
+    <footer align="center">
+        <p><em>&copy; 2026 My Calendar | All Rights Reserved</em></p>
+        <p><small>Created using HTML Tables, Elements, Attributes, Formatting, Forms and Multimedia</small></p>
+    </footer>
+    
+</body>
+</html>
